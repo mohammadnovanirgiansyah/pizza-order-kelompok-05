@@ -49,3 +49,21 @@ elif crust_pizza == "stuffed crust":
 else:
     print("Jenis Crust tidak valid.")
     exit()
+
+#Biaya Ukuran
+if ukuran_pizza == "small":
+    ukuran_price = 42000
+elif ukuran_pizza == "medium":
+    ukuran_price = 55000
+elif ukuran_pizza == "large":
+    ukuran_price = 30000
+else:
+    print("Ukuran pizza tidak valid.")
+    exit()
+#Biaya Tambahan Keju
+harga_keju = 13000 if nambah_keju else 0
+#Total Biaya
+total_cost = harga_pizza + harga_crust + ukuran_price + harga_keju
+#Menampilkan Pesanan dan Total Biaya
+print("Thank you for choosing Pizza Hut Delivery!")
+print("Your final bill will be: Rp",total_cost)
