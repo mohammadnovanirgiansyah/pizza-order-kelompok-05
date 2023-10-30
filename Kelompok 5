@@ -1,0 +1,23 @@
+#Nama Toko
+print('=' * 30)
+print('          Pizza Hut        ')
+print('=' * 30)
+#Daftar Menu 
+print("Pizza Menu :")
+print("1. Frankfurter BBQ        :43.636")
+print("2. Meat Monsta            :43.636")
+print("3. Super Supreme          :43.636")
+print("4. Super Supreme Chicken  :43.636")
+#Input 
+pesan_pizza = input("Pilih jenis pizza : ").lower()
+print("Crust Pizza :")
+print("1. Original                    : Free")
+print("2. Pan                         : 4000")
+print("3. Cheesy Bite Crust           : 8000")
+print("4. Chilli Cheesy Stuffed Crust : 10000")
+print("5. Stuffed Crust               : 12000")
+crust_pizza = input("Tambahkan topping : ").lower()
+print("Ukuran Pizza :")
+print("1. Small  : 42.000")
+print("2. Medium : 55.000")
+print("3. Large  : 30.000")
